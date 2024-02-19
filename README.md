@@ -8,7 +8,8 @@ Add a brief introduction about yourself here.
 - Skill 1
 - Skill 2
 - Skill 3
-
+- Skill 4
+  
 ## Contact
 - **Email:** youremail@example.com
 - **Phone:** +1234567890
