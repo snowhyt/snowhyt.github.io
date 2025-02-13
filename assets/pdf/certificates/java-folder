@@ -1,0 +1,40 @@
+/*Problem 1
+
+Write a program in C, C++, C#, Java or VB.net to make such a pattern like a square with an asterisk
+
+Problem 2
+
+Olympic Games is held every foyr years at Olympia. Make a program using C, C++ Java that will allow you to inpute a year and tells that year is Olympic Games.
+
+problem 3
+
+Make a code that shows this output;
+*/
+
+public class Problem2{
+    public static void main(String [] args){
+        System.out.println("Hello World");
+
+
+        for(int repeat = 0; repeat < 6; repeat++){
+            System.out.println("************");
+        }
+    }
+}
+import java.util.Scanner;
+public class Problem1{
+    public static void main(String [] args){
+        Scanner scan = new Scanner();
+        
+        
+
+        System.out.println("Input a year: ");
+        int year = scan.nextLi();
+
+        if(year%4 == 0){
+             System.out.println("This year is Olympic Games");
+        } else{
+             System.out.println("not Olympic Games");
+        }
+    }
+}
